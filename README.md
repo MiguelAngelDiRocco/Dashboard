@@ -21,6 +21,7 @@ El objetivo es generar **insights claros y accionables** para ayudar a concesion
 
 - `dashboard.pbix` → Archivo de Power BI con el modelo relacional, transformaciones, medidas DAX y visualizaciones
 - `documentacion_proyecto.pdf` → Informe completo explicando el proceso realizado
+- `medidas_dax.pdf` → Medidas DAX creadas y documentadas
 - Carpeta `assets/` → Capturas del dashboard y gráficos incluidos en el informe
 - `README.md` → Este archivo, con la presentación del proyecto
 
@@ -64,7 +65,7 @@ El objetivo es generar **insights claros y accionables** para ayudar a concesion
 ### 📈 4. Visualización
 - KPIs destacados
 - Segmentadores dinámicos (Marca, modelo, año de modelo, tipo de marca)
-- Gráficos interactivos distribuidos en 4 solapas temáticas + 1 solapa de portada
+- Gráficos interactivos distribuidos en 1 solapa de portada + 4 solapas temáticas
 
 ---
 
@@ -84,7 +85,9 @@ El objetivo es generar **insights claros y accionables** para ayudar a concesion
 
 ---
 
-## 📄 Informe en PDF
+## 📄 Informes en PDF
+
+Los documentos en PDF incluye una descripción detallada del proceso completo: limpieza, modelado, creación de medidas DAX, etc.
 
 ---
 
