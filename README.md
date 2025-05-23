@@ -1,4 +1,4 @@
-# 🚗 Entrega Final - Proyecto de Análisis de Ventas de Autos Usados (Power BI)
+# 🚗 Entrega 3 - Proyecto de Análisis de Ventas de Autos Usados (Power BI)
 
 > **Carrera:** Data Analytics  
 > **Institución:** Coderhouse  
@@ -11,7 +11,7 @@
 ## 📌 Descripción general
 
 Este proyecto consiste en el desarrollo de un **dashboard profesional en Power BI** para analizar el mercado de ventas de autos usados en Emiratos Árabes Unidos.  
-Incluye todo el ciclo de trabajo del analista de datos: limpieza, modelado, creación de medidas, visualización e interpretación.
+Incluye todo el ciclo de trabajo del analista de datos: limpieza, modelado, creación de medidas y visualizacion.
 
 El objetivo es generar **insights claros y accionables** para ayudar a concesionarias o plataformas de venta a entender tendencias, demandas y oportunidades.
 
@@ -29,8 +29,8 @@ El objetivo es generar **insights claros y accionables** para ayudar a concesion
 ## 🧠 Objetivos del análisis
 
 - Detectar las **marcas, modelos y tipos de autos más vendidos**
-- Analizar el **impacto del tipo de combustible, transmisión y carrocería**
-- Visualizar el comportamiento del mercado por **ubicación y condición del vehículo**
+- Analizar el **impacto del tipo de combustible, kilometros y carrocería**
+- Visualizar el comportamiento del mercado por **ubicación , condición del vehículo y tipo de combustible**
 - Ofrecer un informe visual **intuitivo, interactivo y útil** para la toma de decisiones
 
 ---
@@ -38,70 +38,69 @@ El objetivo es generar **insights claros y accionables** para ayudar a concesion
 ## ⚙️ Proceso realizado
 
 ### 🔁 1. Limpieza y transformación (Power Query)
-- Eliminación de registros nulos e inconsistencias
-- Conversión de tipos de datos
-- Normalización de columnas (ubicación, color, condición)
+- Separación de tabla de hechos y dimensiones
+- Cambio de nombres de columnas para consistencia
+- Creación de claves primarias únicas en tablas de dimensiones
+- Eliminación de duplicados
+- Tipado de columnas: fechas, textos, numéricos
+- Creación de tabla calendario sin conectar al modelo
+- Creación de tabla medidas
+- Medidas con DAX para mejores análisis
+- Nueva columna tipo de marca (lujo,convensional)
 
 ### 🧱 2. Modelado de datos
 - Diseño de un **modelo estrella**
 - Relación entre tabla de hechos y dimensiones
-- Inclusión de **tabla calendario** (marcada como Date Table)
+- Inclusión de **tabla calendario** (marcada _Calendar_Table)
 
 ### 🧮 3. Cálculo de métricas (DAX)
 - Creación de medidas como:
-  - Total de ventas
+  - Total de vehiculos
   - Precio promedio
-  - Top marcas y modelos
+  - Marcas y modelos mas vendidas
   - Comparativas entre combustibles, transmisiones y carrocerías
+    
 
 ### 📈 4. Visualización
 - KPIs destacados
-- Segmentadores dinámicos (ubicación, combustible, transmisión)
-- Gráficos interactivos distribuidos en 3 solapas:
-  - **Visión General**
-  - **Análisis por características**
-  - **Comparativo entre marcas**
+- Segmentadores dinámicos (Marca, modelo, año de modelo, tipo de marca)
+- Gráficos interactivos distribuidos en 4 solapas temáticas + 1 solapa de portada
 
 ---
 
-## 📷 Capturas del dashboard
-
-> ¡Visualmente atractivo y fácil de interpretar!
+## 📷 Capturas del Dashboard
 
 <p align="center">
-  <img src="assets/portada_dashboard.png" width="600"/>
-  <br>
-  <img src="assets/graficos_solapa_1.png" width="600"/>
+  <img src="assets/Portada.png" alt="Portada del dashboard" width="800"/>
+  <br><br>
+  <img src="assets/Segunda Solapa.png" alt="Solapa 1 - Análisis general" width="800"/>
+  <br><br>
+  <img src="assets/Tercera Solapa.png" alt="Solapa 2 - Análisis por marca y modelo" width="800"/>
+  <br><br>
+  <img src="assets/Cuarta Solapa.png" alt="Solapa 3 - Análisis por ubicación" width="800"/>
+  <br><br>
+  <img src="assets/Quinta Solapa.png" alt="Solapa 4 - Análisis por tipo de marca" width="800"/>
 </p>
 
 ---
 
 ## 📄 Informe en PDF
 
-El archivo `documentacion_proyecto.pdf` incluye:
-- Objetivo del proyecto
-- Público objetivo y alcance
-- Descripción de tablas y relaciones
-- Pasos de limpieza y transformación
-- Lógica de medidas
-- Explicación visual del dashboard
-
 ---
 
 ## 📫 Contacto
 
 Miguel Ángel Di Rocco  
-📧 maikdirocco@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/maikdirocco)  
-📁 [Portfolio](https://maikdirocco.dev)
+📧 migueldirocco.ds@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/miguelangeldirocco/)  
+📁 [Portfolio](https://github.com/MiguelAngelDiRocco)
 
 ---
 
 ## ✅ Estado del proyecto
 
-> ✔️ Entrega finalizada y aprobada  
+> ✔️ Entrega finalizada 
 > 📊 Dashboard funcional y optimizado  
 > 🧠 Disponible para revisión o mejora futura
 
 ---
-
